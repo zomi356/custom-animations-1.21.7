@@ -82,3 +82,11 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+repositories {
+	maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+
+dependencies {
+	modImplementation "software.bernie.geckolib:geckolib-fabric-1.21.7:5.2.0"
+}

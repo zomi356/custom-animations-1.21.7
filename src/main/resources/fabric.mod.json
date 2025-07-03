@@ -26,7 +26,8 @@
 		]
 	},
 	"mixins": [
-		"custom-animations.mixins.json"
+		"custom-animations.mixins.json",
+		"net.zomi.customanimations.mixin.PlayerEntityMixin"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

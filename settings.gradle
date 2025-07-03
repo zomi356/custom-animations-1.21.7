@@ -8,3 +8,9 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
+dependencyResolutionManagement {
+	repositories {
+		maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+	}
+}
